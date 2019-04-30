@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@mixin lato-book { font-family: 'Lato', sans-serif; font-weight: 300; }
+@mixin lato-reg { font-family: 'Lato', sans-serif; font-weight: 400; }
+@mixin lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
+
+$blue: #4f6fad;
+$pink: #ee9cb4;
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 5% 0;
+
+
+  input {
+    border-radius: 5px;
+    border:1px solid silver;
+    height: 3vh;
+    margin: 3% 0 5%;
+    @include lato-reg;
+    padding: 1%;
+  }
+
+  button {
+    width: 100%;
+    height: 5vh;
+    margin:  2% auto;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include lato-bold;
+    color: white;
+    background-image: linear-gradient(to right, $pink, $blue);
+  }
+
+  p{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    @include lato-reg;
+    color: #4f6fad;
+  }
+  h3 {
+    margin:  2% auto 0;
+    color: $blue;
+    @include lato-reg;
+    text-transform: uppercase;
+    font-size: 1
+  }
+
+}

@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+.header {
+		background: url("https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg") no-repeat;
+		background-size: cover;
+		width: 100%;
+		padding: 10% 0;
+}
+
+.header .header-wrapper {
+		width: 90%;
+		margin: auto;
+}
+
+.header h1 {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		text-transform: uppercase;
+}
+
+.header p {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+}
